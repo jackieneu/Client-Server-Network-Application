@@ -8,26 +8,28 @@ To run the code, first start the server using the command given below. Then star
 
 
 To Run and Compile Server Code:
-'''
+
+```
    g++ -g -Wall ftserver.cpp -o ftserver
    ./ftserver <port_num>
-'''
+```
 
-'''
-   Example: 
+   Example:
+```
    ./ftserver 30051
-'''
+```
 
 To Run and Compile Client Code:
-'''
-   python ftclient.py <host_name> <port_num> -g <file_name> <data_port> -l <data_port>
-'''
 
-'''
+```
+   python ftclient.py <host_name> <port_num> -g <file_name> <data_port> -l <data_port>
+```
+
    Examples:
+```
    python ftclient.py host -l 30051
 
    python ftclient.py host -g test.txt 30051
 
    python ftclient.py host 30052
-'''
+```
